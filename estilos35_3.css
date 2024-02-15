@@ -1,0 +1,125 @@
+ main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  } 
+button {
+  margin: 0.3rem;
+  border-radius: 15%;
+  background-image: url(/assets/fondoboton.jpg);
+  font-weight: bold;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(97, 77, 63);
+  letter-spacing: 0.2rem;
+  text-shadow: 2px 2px 2px #dbd6d6;
+}
+body {
+  background-image: url(/assets/fondo.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h3 {
+  margin-block-start: 8rem;
+  display: flex;
+  justify-content: center;
+}
+h4 {
+  margin-block-start: 15rem;
+  margin-inline-start: 4rem;
+}
+
+#dia1 {
+  display: none;
+   background-size: 100vh;
+  background-image: url(/assets/lunes1.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: rgb(17, 17, 16);
+  font-size: 2.5rem;
+ }
+#dia2 {
+  display: none;
+  background-size: 100vh;
+    background-size: 100vh;
+  background-position: center;
+  background-image: url(/assets/martes.webp);
+  background-repeat: no-repeat;
+  color: rgb(224, 214, 218);
+  font-size: 2.5rem;
+  }
+#dia3 {
+  display: none;
+   background-repeat: no-repeat;
+  background-size:100vh;
+  background-position: center;
+  background-image: url(/assets/mercores.jpg);
+  color: rgb(40, 38, 43);
+  font-size: 2.5rem;
+ }
+#dia4 {
+  display: none;
+   background-position: center;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(/assets/xoves.jpg);
+  color: rgb(241, 227, 93);
+  font-size: 2.5rem;
+  }
+#dia5 {
+  display: none;
+    background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/assets/venre.jfif);
+  color: rgb(96, 81, 145);
+  text-align: center;
+  font-size: 2.5rem;
+  }
+#dia6 {
+  display: none;
+   background-size: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/sabado.jfif);
+  color: rgb(253, 109, 142);
+  font-size: 2.5rem;
+}
+#dia7 {
+  display: none;
+    background-size: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/assets/domingo.jpg);
+  color: rgb(82, 74, 76);
+  font-size: 2.5rem;
+}
+.card__fondo--claro {
+  background-color: rgba(226, 219, 219, 0.685);
+  background-size: cover;
+  padding: 20px 0px;
+  height: 100%;
+}
+.card__fondo {
+  background-color: rgba(116, 110, 110, 0.685);
+  background-size: cover;
+  padding: 20px 0px;
+  height: 100%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  margin-block-start: 10rem;
+}
+#uno{
+    display: flex;
+  flex-direction: column;
+  justify-content: left;
+}

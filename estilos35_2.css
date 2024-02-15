@@ -1,0 +1,97 @@
+#boton {
+  height: 10rem;
+  width: 30rem;
+}
+body {
+  background-image: url(/assets/votantes.jfif);
+  background-repeat: no-repeat;
+  background-size: 35%;
+}
+button {
+  margin: 1rem 0rem 0rem 55rem;
+  height: 5rem;
+  width: 5rem;
+}
+
+#notas {
+  display: flex;
+
+  height: 3rem;
+  width: 28rem;
+  font-size: 2rem;
+  margin: 8rem 10rem 10rem 55rem;
+  background-color: rgba(0, 0, 0, 0.116);
+  text-align: center;
+}
+#cualificacion {
+  margin-inline-start: 1rem;
+  margin-block-start: 1rem;
+}
+h3 {
+  font-size: 2rem;
+}
+#resultado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  color: red;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 7px rgb(51, 50, 49);
+  text-align: center;
+}
+h1 {
+  font-size: 2.5rem;
+  border: 2px solid;
+  text-align: center;
+  font-style: oblique;
+  color: rgb(117, 44, 44);
+}
+footer {
+  padding: 12rem;
+  font-size: 1.5rem;
+}
+@media screen and (max-width: 767px) {
+  body {
+    background-image: url(/assets/votantes.jfif);
+    background-repeat: no-repeat;
+  }
+  #cualificacion {
+    margin-inline-start: 5rem;
+    margin-block-start: 5rem;
+  }
+
+  #notas {
+    display: flex;
+    margin: 0rem 8rem;
+    height: 2rem;
+    width: 14rem;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.116);
+    text-align: center;
+  }
+  #boton {
+    margin: 0rem 4rem;
+    height: 6rem;
+    width: 12rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  #resultado {
+    color: red;
+    font-size: 1rem;
+    text-shadow: 2px 2px 7px rgb(51, 50, 49);
+    text-align: center;
+  }
+  h1 {
+    font-size: 1rem;
+    border: 2px solid;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(117, 44, 44);
+  }
+  footer {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
